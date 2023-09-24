@@ -1,6 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
     height: 100%;
     font-family: 'Poppins', sans-serif;
 }
@@ -10,7 +8,7 @@
 .contenedor {
     display: flex;
     height: 100%;
-    background-image: url("./img/parteizquierda.png");
+    background-image: url("./img/tapiz.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -19,7 +17,9 @@
 /* parte izquierda */
 .parte-izquierda {
     width: 50%;
-    height: 100%;
+    height: 200%;
+    align-items: center;
+    justify-content: center;
 }
 .titulo{
     padding: 40px 0 0 20px;
@@ -33,6 +33,7 @@
     width: 500px;
     height: 150px;
     flex-shrink: 0;
+    justify-content: center;
 }
 
 .titulo h1{
@@ -49,7 +50,6 @@
     flex-direction: column;
     align-items: center;
     height: auto;
-    width: 48vw;
 }
 
 .inicioSesion2{
@@ -146,7 +146,7 @@
 
 /* parte derecha */
 .parte-derecha {
-    background-image: url("../img/.parte-derecha.jpeg");
+    background-image: url("./img/estaes.jpeg");
     background-position: center;
     background-size: cover;
     position: relative;
