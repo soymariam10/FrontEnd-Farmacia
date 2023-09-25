@@ -79,7 +79,7 @@ header .nav-links li a:hover{
     color: rgb(255, 255, 255)
 }
 /*boton navbar*/
-header .btn button{
+header .ingresar button{
     background-color: #4F88FF;
     font-weight: 700;
     color: rgb(255, 255, 255);
@@ -89,7 +89,7 @@ header .btn button{
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-header .btn button:hover{
+header .ingresar button:hover{
     background-color: #09A0FE;
     color: black;
     transform: scale(1.1);

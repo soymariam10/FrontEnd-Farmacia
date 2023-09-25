@@ -1,4 +1,4 @@
-const boton = document.querySelector('#registrarB');
+const boton = document.querySelector('#registrarB');//selecciona el elemento y lo almacena en boton
 const botonRegistrar = document.querySelector('#registrarseB')
 const registroD = document.querySelector('.registroD');
 const registroUser = document.querySelector('.registroUser')
