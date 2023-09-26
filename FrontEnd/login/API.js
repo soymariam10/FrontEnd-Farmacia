@@ -9,6 +9,7 @@ export const nuevoRegistro =  async (resgistros) =>{
             headers:{'Content-Type':'application/json'}
         });
         window.location.href ="index.html"
+        window.alert("Registrado con éxito")
     } catch (error) {
         console.log(error,"no sirve");
     }

@@ -1,4 +1,4 @@
-import { nuevoRegistro,logeate } from "./API.js";
+import { nuevoRegistro,logeate } from "../FrontEnd/login/API.js";
 
 const formulario = document.querySelector("#formRegistre")
 formulario.addEventListener('submit', validarRegistro)
@@ -15,12 +15,12 @@ function validarRegistro(e){
         password
     }
     if(validate(resgist)){
-        alert ('todos los campos son obligatirios')
+        alert ('todos los campos son obligatorios')
         return 
         
     }
 
-    nuevoRegistro (resgist)
+  nuevoRegistro (resgist)
 
 }
 
@@ -49,7 +49,7 @@ async function validarLogin(e) {
         if (response) {
             alert("¡Enviado!");
             setTimeout(()=>{
-                window.location = './home/home.html';
+                window.location = '../';
 
             },2000)
 

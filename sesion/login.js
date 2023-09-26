@@ -23,7 +23,7 @@ function login(){
     user = document.querySelector("emailLogin").value;
     pass = document.getElementById("passwordLogin").value;
 
-    if(user == "angedeveloper@gmail.com" $$ pass == "1232890241"){
+    if(user == "angedeveloper@gmail.com" && pass == "1232890241"){
 
         window.location= "paciente.html"
 
