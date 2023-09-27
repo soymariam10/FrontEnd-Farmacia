@@ -1,4 +1,4 @@
-import {obtenerPaciente,deletePacientes,editarPacientes} from "./API.js"
+import {obtenerPaciente,deletePacientes,editarPacientes} from "../home/API.js"
 
 document.addEventListener("DOMContentLoaded", () => {
     mostrarLista()

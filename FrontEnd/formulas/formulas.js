@@ -1,4 +1,4 @@
-import { obtenerPerfil, nuevoPerfilL } from "./API.js"
+import { obtenerPerfil, nuevoPerfilL } from "../Medico/formulas/API.js"
 
 document.addEventListener("DOMContentLoaded", () => {
     mostrarLista()

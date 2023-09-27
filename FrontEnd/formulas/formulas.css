@@ -30,11 +30,6 @@
     height: 800px;
 }
 
-.d{
-    display: flex;
-    justify-content: flex-end;
-}
-
 .taba table{
     height: 5rem;
 }
@@ -53,33 +48,3 @@
     align-items: end;
 }
 
-#botones-peque{
-    height: 45px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-}
-#cancelar{
-    height: 2.5rem;
-    width: 11rem;
-    border: none;
-    background-color: #FC3659;
-    color: white;
-    border-radius: 15px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 18px;
-}
-#guardar{
-    height: 2.5rem;
-    width: 11rem;
-    border: none;
-    background-color: #2DB121;
-    color: white;
-    border-radius: 15px;
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 1px;
-}
