@@ -41,7 +41,8 @@ header .logo img:hover{
     border-radius: 3px;
 }
 .nav-menu:hover{
-    background-color: #4F88FF;
+    background-color: #140733;
+    ;
     border-radius: 15px;
     color: white;
 }
@@ -97,7 +98,8 @@ header .ingresar button:hover{
 /*info principal*/
 p{
     padding: 5px;
-    background-color: #997BE8;
+    background-color: #140733;
+    color: white;
     
 }
 /*imagen doctora*/
@@ -167,7 +169,7 @@ button:hover{
 }
 
 .ultimo{
-    background-color: #997BE8;
+    background-color: #140733;
     align-content: center;
     align-items: center;
     display: flex;
@@ -175,4 +177,5 @@ button:hover{
     bottom: 0;
     font-size: small;
     justify-content: center;
+    color: white;
 }

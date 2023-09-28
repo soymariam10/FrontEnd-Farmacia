@@ -8,7 +8,7 @@
 .contenedor {
     display: flex;
     height: 100%;
-    background-image: url("./img/tapiz.jpg");
+    background-image: url("/FrontEnd/img/tapiz.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -146,7 +146,7 @@
 
 /* parte derecha */
 .parte-derecha {
-    background-image: url("./img/estaes.jpeg");
+    background-image: url("/FrontEnd/img/estaes.jpeg");
     background-position: center;
     background-size: cover;
     position: relative;

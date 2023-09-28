@@ -1,3 +1,12 @@
+const Iniciar = document.querySelector('#Iniciar');
+const inicioSesion = document.querySelector('.inicioSesion');
+
+
+Iniciar.addEventListener("click", e => {
+    formRegister.classList.add("hide");
+    window.location.href = "/FrontEnd/pacientes/paciente.html";
+})
+
 const boton = document.querySelector('#registrarB');//selecciona el elemento y lo almacena en boton
 const botonRegistrar = document.querySelector('#registrarseB')
 const registroD = document.querySelector('.registroD');
