@@ -1,14 +1,9 @@
 * {
     margin: 0;
-    padding: 0;/* 
-    height: 100%; */
-    overflow: hidden;
+    padding: 0;
 }
 
-
-/* toda la pantalla */
-
-.contenedor {   
+.contenedor {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,32 +14,17 @@
     gap: 50px;
 }
 
-
-/* parte derecha */
-
-.taba{
-    /* Establecer una altura máxima para la sección */
-    max-height: 800px; /* Ajusta este valor según tus necesidades */
-    /* Establecer un overflow para habilitar el scroll */
+.table-wrapper {
+    height: 80%;
     overflow-y: auto;
-    height: 800px;
 }
 
-.taba table{
-    height: 5rem;
+table thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
-
-
-.mrd{
-    height: auto;
-    width: 92rem;
-    margin: 60px 300px 50px 38px;
+table {
+    width: 100%;
 }
-
-.t{
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-}
-

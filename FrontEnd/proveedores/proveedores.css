@@ -26,14 +26,6 @@
 
 /* parte derecha */
 
-.taba{
-    /* Establecer una altura máxima para la sección */
-    max-height: 800px; /* Ajusta este valor según tus necesidades */
-    /* Establecer un overflow para habilitar el scroll */
-    overflow-y: auto;
-    height: 800px;
-}
-
 .mrd{
     height: auto;
     width: 92rem;
@@ -53,7 +45,7 @@
 }
 
 .slide-content{
-    margin:0 40px;
+    margin:100px 40px;
     padding: 10px;
 }
 
